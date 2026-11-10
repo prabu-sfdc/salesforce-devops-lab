@@ -1,4 +1,3 @@
-
 /**
  * @description Calculates commission for sales transactions.
  *              Uses the standard commission rate of 7%.
@@ -19,9 +18,8 @@ public with sharing class CommissionCalculator {
             );
         }
 
-        Decimal rate = 0.07;// Standard commission rate of 7%
-        Decimal commission = (amount * rate).setScale(2);
+        Decimal rate = 0.08;// Standard commission rate of 8%
 
-        return commission;
+        return (amount * rate).setScale(2);
     }
 }
