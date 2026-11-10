@@ -20,7 +20,8 @@ public with sharing class CommissionCalculator {
         }
 
         Decimal rate = 0.07;// Standard commission rate of 7%
+        Decimal commission = (amount * rate).setScale(2);
 
-        return (amount * rate).setScale(2);
+        return commission;
     }
 }
