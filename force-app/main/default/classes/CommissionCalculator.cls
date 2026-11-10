@@ -7,7 +7,7 @@ public with sharing class CommissionCalculator {
             );
         }
 
-        Decimal rate = 0.07;
+        Decimal rate = 0.07; // 7% commission rate
         return (amount * rate).setScale(2);
     }
 }
