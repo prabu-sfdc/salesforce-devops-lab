@@ -1,6 +1,6 @@
 /**
  * @description Calculates commission for sales transactions.
- *              Uses the standard commission rate of 7%.
+ *              Uses the standard commission rate of 8%.
  */
 public with sharing class CommissionCalculator {
 
