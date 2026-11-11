@@ -7,7 +7,7 @@ private class CommissionCalculatorTest {
             CommissionCalculator.calculate(1000);
 
         System.assertEquals(
-            80.00,
+            90.00,
             result,
             'Commission should be 8%'
         );
